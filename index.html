@@ -211,18 +211,34 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.0489057016655!2d73.79638584082493!3d18.509847080589314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfb30ec1b6c7%3A0x74fb1ac1f7626fdc!2sIndira%20Shankar%20Nagari%2C%20Bhusari%20Colony%2C%20Kothrud%2C%20Pune%2C%20Maharashtra%20411038!5e0!3m2!1sen!2sin!4v1724077972461!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
               </div>
-              <div class="contact-container">
-                <form action="https://api.web3forms.com/submit" method="POST" class="contact">
-                    <div class="contact-title">
-                        <h2>Get In Touch</h2>
-                        <hr style="border:1px solid hsl(0, 1%, 23%)">
-                    </div>
+              <div class="container-contact">
+                <video class="video-container" autoplay loop muted playsinline>
+                    <source src="video2.mv insta" type="video/mp4">
+                </video>
+                <h2>Contact Us</h2>
+                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
                     <input type="hidden" name="access_key" value="729609ce-bbd8-412a-830c-61c111290917">
-                    <input type="text" name="Name" placeholder="Your Name" class="contact-inputs" required>
-                    <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
-                    <textarea message="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                    <button type="submit">Submit</button>
+                
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" name="name" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Your Email" name="email" required>
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Message" name="message" required></textarea>
+                    </div>
+                
+                    <button type="submit" class="btn-contact">Send Message</button>
                 </form>
+                
+                <!-- Validation Messages -->
+                <div id="form-status"></div>      
             </div>
         </article>
     </main>
