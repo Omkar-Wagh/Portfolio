@@ -231,7 +231,11 @@ footer {
   border-radius: 15px;
   box-shadow:0  2px hsl(0, 1%, 23%);
 }
-
+@media (max-width:768px),(max-width:480px),(max-width:320px){
+  .grid-container-1{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
 .grid-container-2{
   margin: 0 auto;
   display:grid;
