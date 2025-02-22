@@ -33,7 +33,6 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     }
 });
 
-
 // contact form
 document.getElementById("contact-form").addEventListener("submit", async function(event) {
     event.preventDefault(); 
