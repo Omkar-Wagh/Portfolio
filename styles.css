@@ -22,10 +22,13 @@ span{
 /* About */
 .navbar {
   text-align: center;
-  background-color: #3333;
+  background-color: #222;
   border-radius: 15px;
   box-shadow:2px 2px 2px hsl(0, 1%, 23%);
-  justify-content:space-evenly;
+  justify-content:center;
+  position:sticky;
+  top:-3%;
+  z-index: 1000;
 }
 
 .navbar ul {
@@ -95,6 +98,9 @@ span{
   .navbar{
     padding:0;
     margin:0;
+    position:sticky;
+    top:-3%;
+    z-index: 1000;
   }
 }
 
@@ -455,7 +461,11 @@ footer {
   padding: 1rem;
   line-height: 20px;
 }
-
+@media (max-width:768px),(max-width:480px),(max-width:320px) {
+  .container{
+    display: none;
+  }
+}
 /* Portfolio, blog */
 #portfolio p, #blog p{
   font-size: 1.1rem;
