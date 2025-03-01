@@ -248,9 +248,9 @@ footer {
 }
 
 @media (max-width:768px),(max-width:480px),(max-width:320px){
-  .block2{
-    max-height:80vh;
-      overflow-y:auto;
+.block2 {
+    clip-path: inset(0 0 90vh 0);
+}
   }
 }
 .grid-container-1{
@@ -332,7 +332,7 @@ footer {
   font-family:Arial, Helvetica, sans-serif;
 }
 @media (max-width: 768px),(max-width: 480px),(max-width: 320px){
-  #about{
+  #about,#portfolio,#blog{
       padding-bottom:3rem;
   }
 }
