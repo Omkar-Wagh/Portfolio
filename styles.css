@@ -246,12 +246,7 @@ footer {
       flex-direction: column;
   }
 }
-@media (max-width:768px),(max-width:480px),(max-width:320px){
-  .block2{
-      position:sticky;
-      top:-90%;
-  }
-}
+
 
 .grid-container-1{
   display:grid;
