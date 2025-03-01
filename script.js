@@ -54,3 +54,17 @@ document.getElementById("contact-form").addEventListener("submit", async functio
         alert("❌ Error sending message. Please try again.");
     }
 });
+
+const block2 = document.getElementById('block2');
+
+window.addEventListener('scroll', () => {
+    const scrollPercentage = (window.scrollY / (document.body.offsetHeight - window.innerHeight)) * 100;
+    
+    if (scrollPercentage >= 90) {
+        block2.style.overflowX = 'auto';
+        block2.style.overflowY = 'hidden';
+    } else {
+        block2.style.overflowX = 'hidden';
+        block2.style.overflowY = 'auto';
+    }
+});
