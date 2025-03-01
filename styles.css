@@ -246,15 +246,22 @@ footer {
       flex-direction: column;
   }
 }
-
-@media (max-width:768px),(max-width:480px),(max-width:320px){
 .block2 {
 overflow-y: hidden;
-height: 90vh;
+height: 100vh;
+scroll-behavior: auto;
+transition: overflow-y 0.5s ease-in-out;
 }
 
-.block2:hover {
+@media (max-width: 768px) {
+.block2 {
+position: relative;
+clip-path: inset(0 0 10vh 0);
+}
+
+.block2.scrollable {
 overflow-y: auto;
+clip-path: none;
 }
 }
 .grid-container-1{
