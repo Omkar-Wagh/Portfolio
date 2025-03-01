@@ -190,7 +190,7 @@ footer {
         width: 100%;
         padding: 1vh;
         margin-top: 1vh;
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
         padding: 1vh;
         font-size: auto;
     }
@@ -200,7 +200,7 @@ footer {
     .block1, .block2 {
        font-size: auto;
         margin-top: 1vh;
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
         padding: 1vh;
     }
 }
@@ -209,7 +209,7 @@ footer {
     .block1, .block2 {
         font-size: auto;
         margin-top: 1vh;
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
         padding: 1vh;
     }
 }
