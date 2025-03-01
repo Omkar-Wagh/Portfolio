@@ -249,9 +249,10 @@ footer {
 
 @media (max-width:768px),(max-width:480px),(max-width:320px){
 .block2 {
-    clip-path: inset(0 0 90vh 0);
+height: 100vh;
+overflow-y: scroll;
+clip-path: inset(0 0 90vh 0);
 }
-  }
 }
 .grid-container-1{
   display:grid;
