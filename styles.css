@@ -190,7 +190,7 @@ footer {
         width: 100%;
         padding: 1vh;
         margin-top: 1vh;
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         padding: 1vh;
         font-size: auto;
     }
@@ -200,7 +200,7 @@ footer {
     .block1, .block2 {
        font-size: auto;
         margin-top: 1vh;
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         padding: 1vh;
     }
 }
@@ -209,7 +209,7 @@ footer {
     .block1, .block2 {
         font-size: auto;
         margin-top: 1vh;
-        margin-bottom: 3vh;
+        margin-bottom: 1vh;
         padding: 1vh;
     }
 }
@@ -324,6 +324,11 @@ footer {
   letter-spacing: 1px;
   line-height: 20px;
   font-family:Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px),(max-width: 480px),(max-width: 320px){
+  #about{
+      padding-bottom:3rem;
+  }
 }
 
 /* Side Panel */
