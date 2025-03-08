@@ -95,13 +95,13 @@ span{
 .cust-navbar {
   display: block;
   text-align: center;
+  justify-content:center;
   background-color: #222;
   border-radius: 15px;
   box-shadow:2px 2px 2px hsl(0, 1%, 23%);
   justify-content:center;
   position: fixed;
   bottom:1px;
-  left:0;
   z-index: 1000;
 }
 
@@ -151,7 +151,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vh;
+    gap: 2.5vh;
     width: 90%;
     margin-left: 5%;
     background-color: #111;
@@ -219,14 +219,12 @@ footer {
 @media (max-width:768px),(max-width:480px),(max-width:320px){
   .block1, .block2{
     min-height:100vh;
-      scroll-behavior: smooth;
-      overflow-y:auto;
   }
 }
 @media (max-width: 768px) {
   .block {
       width: 90%;
-      margin-top: 5vh;
+      margin-top: 3vh;
       margin-bottom: 5vh;
       font-size: auto;
       gap:0;
