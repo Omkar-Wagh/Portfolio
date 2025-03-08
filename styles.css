@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #111;
-    scroll-behaviour: smooth;
+    scroll-behavior: smooth;
 }
 h2{
   letter-spacing: 1px;
@@ -219,11 +219,13 @@ footer {
 @media (max-width:768px),(max-width:480px),(max-width:320px){
   .block1, .block2{
     min-height:100vh;
+      scroll-behavior: smooth;
+      overflow-y:auto;
   }
 }
 @media (max-width: 768px) {
   .block {
-      width: 90%;
+      width: 100%;
       margin-top: 5vh;
       margin-bottom: 5vh;
       font-size: auto;
