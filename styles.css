@@ -225,7 +225,7 @@ footer {
 }
 @media (max-width: 768px) {
   .block {
-      width: 100%;
+      width: 90%;
       margin-top: 5vh;
       margin-bottom: 5vh;
       font-size: auto;
