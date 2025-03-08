@@ -169,7 +169,7 @@ footer {
     margin-bottom: 2vh;
     border-radius: 2.5vh;
     box-shadow:0  2px hsl(0, 1%, 23%);
-    overflow:auto;
+    overflow-y:auto;
     scrollbar-width: none;
   }
 .block2 {
