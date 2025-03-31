@@ -427,23 +427,20 @@ footer {
 .container{
   margin:0 auto;
   width:80%;
-  height:200px;
+  height:40vh;
   display:flex;
   justify-content: center;
   gap:10px;
   padding: 1rem;
 }
 .container .img{
-  width:10%;
-  height: 100%;
+  width:100%;
   object-fit: cover;
   border-radius: 10px;
   border:1px solid hsl(0, 1%, 23%);
   transition:all ease-in-out 0.5s;
 }
-.container .img:hover{
-  width:100%;
-}
+
 .Button {
   max-width:max-content;
   padding: 10px;
@@ -472,9 +469,7 @@ footer {
   padding: 1rem;
 }
 @media(max-width:768px),(max-width:480px),(max-width:320px)  {
-  .container{
-    display: none;
-  }
+  
 }
 /* Portfolio, blog */
 
